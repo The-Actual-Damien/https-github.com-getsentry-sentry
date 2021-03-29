@@ -1,0 +1,16 @@
+---
+created: '2021-03-29T22:02:39.285385Z'
+creator: sentry
+source: tests/sentry/grouping/test_categorization.py
+---
+
+
+EXC_BAD_ACCESS:DNOC > ZTUM >
+Attempted to dereference null pointer. (thread_id:_, crashed:_)
+                     libsystem_pthread.dylib  _pthread_start category=threadbase
+                     libsystem_pthread.dylib  _pthread_body category=threadbase
+                              Clash of Clans  std::__1::__thread_proxy<T> category=internals
+                              Clash of Clans  std::__1::__thread_execute<T> category=internals
+                              Clash of Clans  std::__1::__invoke<T> category=internals
+                                              stripped_application_code
+                                              stripped_application_code
